@@ -24,7 +24,15 @@ nltk.download('wordnet')
 nltk.download('punkt_tab')
 
 # Function to process text data through a series of transformations
-def pipeline(text: str) -> str:
+def nltk_pipeline(text: str) -> str:
+    """Process text data through a series of transformations.
+
+    Args:
+        text (str): The input text to process.
+
+    Returns:
+        str: The processed text.
+    """
 
     def text_to_lowercase(text: str) -> str :
         return text.lower()

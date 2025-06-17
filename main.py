@@ -1,6 +1,6 @@
 import kagglehub
 import pandas as pd
-from pipeline import pipeline
+from nltk_pipeline import nltk_pipeline
 
 # Download latest version
 path = kagglehub.dataset_download("lakshmi25npathi/imdb-dataset-of-50k-movie-reviews")
@@ -9,7 +9,7 @@ path = kagglehub.dataset_download("lakshmi25npathi/imdb-dataset-of-50k-movie-rev
 df = pd.read_csv(f"{path}/IMDB Dataset.csv")    
 
 # Apply the pipeline to the 'review' column
-df['processed_review'] = df['review'].apply(pipeline)
+df['processed_review'] = df['review'].apply(nltk_pipeline)
 
 # View the first processed review in the DataFrame
 print("Initial first review:", df['review'][0])

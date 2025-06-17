@@ -3,3 +3,6 @@ kagglehub
 pandas
 nltk
 inflect
+setuptools
+spacy
+wheel
