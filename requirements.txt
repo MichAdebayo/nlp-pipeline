@@ -1,0 +1,5 @@
+ipykernel
+kagglehub
+pandas
+nltk
+inflect
