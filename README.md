@@ -115,9 +115,9 @@ This will:
 ```
 nlp-pipeline/
 │
-├── 📄 main.py                    # Main execution script
-├── 🔧 pipeline.py               # Core NLP preprocessing functions
-├── 📋 requirements.txt          # Python dependencies
+├── 📄 main.py                  # Main execution script
+├── 🔧 nltk_pipeline.py         # Core NLP preprocessing functions
+├── 📋 requirements.txt         # Python dependencies
 ├── 📖 README.md                # Project documentation
 ├── 📁 __pycache__/             # Python cache files
 │
