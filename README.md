@@ -1,5 +1,7 @@
 # NLP Text Processing Pipeline
 
+<img width="685" height="365" alt="Image" src="https://github.com/user-attachments/assets/7a762adf-97fe-4bf9-9e32-e49972c5f54c" />
+
 A comprehensive Natural Language Processing pipeline for cleaning and preprocessing textual data, specifically designed for movie review sentiment analysis using the IMDb dataset.
 
 ## 🎯 Overview
@@ -200,4 +202,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **NLTK Team** for the comprehensive natural language processing toolkit
 - **Kaggle** for providing the IMDb dataset
-- **Contributors** to the open-source libraries used in this project
