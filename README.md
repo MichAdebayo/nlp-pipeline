@@ -1,6 +1,6 @@
 # NLP Text Processing Pipeline
 
-<img justify='center' width="685" height="365" alt="Image" src="https://github.com/user-attachments/assets/7a762adf-97fe-4bf9-9e32-e49972c5f54c" />
+<img align='center' width="685" height="365" alt="Image" src="https://github.com/user-attachments/assets/7a762adf-97fe-4bf9-9e32-e49972c5f54c" />
 
 A comprehensive Natural Language Processing pipeline for cleaning and preprocessing textual data, specifically designed for movie review sentiment analysis using the IMDb dataset.
 
